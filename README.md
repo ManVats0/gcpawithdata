@@ -1,4 +1,4 @@
-# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c879fbf8-1d88-4080-97c3-5dcbd42e240f"> GCP Data Engineering Project: Data Pipeline with Cloud Run Functions, Airflow and BigQuery ML 🚢
+# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c879fbf8-1d88-4080-97c3-5dcbd42e240f"> GCP Data Engineering Data Pipeline with Cloud Run Functions, Airflow, and BigQuery ML 
 
 This project will demonstrate how to build a data pipeline on Google Cloud using an event-driven architecture, leveraging services like GCS, Cloud Run functions, and BigQuery. We'll explore both VM and Composer options for managing Airflow, and utilize Logging and Monitoring services to track the pipeline's health. Finally, we'll experiment with BigQuery ML, showcasing how SQL knowledge alone can be sufficient for initial ML implementation in certain scenarios.
 
@@ -27,7 +27,7 @@ This project was born from the harsh reality that, while I'm still eager to buil
 
 **Option 1: Airflow on a VM.** This is the most cost-effective approach. You can even complete it using the GCP Free Trial account (which provides $300 for 90 days). While it requires a bit more manual setup, I'll guide you through each step.
 
-**Option 2: Cloud Composer.** I tested this solution with both Composer 2 and the preview release of Composer 3. Unfortunately, Google's recent policy change (effective [May 11th](https://cloud.google.com/composer/docs/release-notes#May_11_2024)) means you can't create Composer 2 environment using a Free Trial account. The minimum requirement for even the Small Composer is 600GB of Persistent Disk SSD, which exceeds the Free Trial quota of 500GB. To use this option with Composer 2, you'll need to activate your GCP account.
+**Option 2: Cloud Composer.** I tested this solution with both Composer 2 and the preview release of Composer 3. Unfortunately, Google's recent policy change (effective [May 11th](https://cloud.google.com/composer/docs/release-notes#May_11_2024)) means you can't create a Composer 2 environment using a Free Trial account. The minimum requirement for even the Small Composer is 600GB of Persistent Disk SSD, which exceeds the Free Trial quota of 500GB. To use this option with Composer 2, you'll need to activate your GCP account.
 
 ![Screenshot (1912)2](https://github.com/user-attachments/assets/388e47a5-bcab-468a-87bc-97e30bce10d9)
 
